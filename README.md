@@ -9,10 +9,11 @@ This repo is part of the **Kaggle Playground Series (S5E9)**, where the challeng
 - 🎯 **Goal**: Predict the continuous target `BeatsPerMinute` (BPM) of songs.  
 - 📂 **Dataset**: Provided by Kaggle Playground (S5E9).  
 - 🧩 **Features**: RhythmScore, AudioLoudness, VocalContent, AcousticQuality, InstrumentalScore, MoodScore, Energy, and more.  
-- ⚡ **Approach**:  
+- ⚡ **Approach**:
   - Data exploration & visualization  
-  - Outlier detection & handling  
-  - Feature scaling with **RobustScaler, MinMaxScaler, StandardScaler**  
+  - Outlier detection & handling
+  - Feature Engineering to select top 5 columns
+  - Feature scaling with **RobustScaler, MinMaxScaler, StandardScaler**
   - Model training with **Linear, Tree-based, and Boosting regressors**  
   - Performance evaluation with **MAE, RMSE, R²**  
 
